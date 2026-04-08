@@ -34,12 +34,10 @@
             <input type="text" class="form-control" id="floatingInput" placeholder="">
             <label for="floatingInput">Name Here...</label>
             </div>
-
-
-              
-            <a href="./Tracker.html">
+            
+            
             <button class="btn btn-md" id="login-button">LOGIN</button>
-            </a>
+
         </div>
     </div>
 
@@ -47,19 +45,26 @@
 
     <script>
         document.getElementById("click-here-button").onclick = function(){
-            alert("Hey 😏 enter your name and let’s track your money!");
+            alert("Hey 😊😊😊 enter your name and let’s track your money!");
         document.getElementById("floatingInput").focus();
-};
+        };
+
+
+
+        document.getElementById("login-button").onclick = function(){
+            let name = document.getElementById("floatingInput").value;
+            if(name === ""){
+                alert("Hey 😏 enter your name first 😉");
+                return;
+            }
+            localStorage.setItem("username", name);
+            alert("Going to Tracker 😎"); // test
+            window.location.href = "Tracker.html";
+        };
+
+
+
 </script>
-
-
-
-
-
-
-
-
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
