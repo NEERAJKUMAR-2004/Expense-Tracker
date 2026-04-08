@@ -1,0 +1,174 @@
+body{
+    font-family: "Comfortaa", sans-serif;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+.header{
+    background-color: #476ef7;
+    color:white;
+    font-size: 35px;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size:large;
+    display: flex;
+    align-items: center;
+}
+
+.input-form{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width:95%;
+    margin:auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #476ef7;
+    margin-top:15px;
+    padding:25px 0px;
+
+}
+
+.form-floating{
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+
+}
+
+#add-button{
+    background-color:#476ef7;
+    color:white;
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size:large;
+    font-weight:600;
+
+   
+}
+
+.inputs{
+    width:30%;
+}
+
+.cards{
+    display:flex;
+    width:95%;
+    margin:auto;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: #476ef7;
+    color:white;
+    border:0px;
+    height:150px;
+}
+
+.card-body{
+    color:white;
+}
+
+.transaction-table{
+    border:1px black solid;
+    width:95%;
+    margin:auto;
+    margin-top:15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-weight:bold;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.75);
+    padding: 0px;
+    table-layout: fixed;
+    word-break: break-word;
+
+}
+.transaction-table td{
+    border:1px black solid;
+    padding:10px 8px;
+    font-size: 13px;
+    text-align: center;
+}
+
+#header-row{
+    background-color:#476ef7;
+    
+
+}
+#header-row th{
+    padding:15px 10px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .input-form{
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0px 0px 10px black;
+    }
+
+    .inputs{
+        background-color: white;
+        width:80%;
+        margin-bottom: 15px;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        background-color: black;
+        width:80%;
+        margin-bottom: 15px;
+    }
+    #add-button{
+        background-color: black;
+        color:white;
+        height:50px;
+        width: 325px;
+        border-radius: 8px;
+
+    }
+    .header{
+        background-color: black;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .transaction-table{
+        background-color: white;
+        color:black;
+        margin:auto;
+        margin-top:15px;
+        border-radius: 8px;
+        overflow-x: auto;
+        font-weight:bold;
+        box-shadow: 0px 4px 4px rgba(0,0,0,0.75);
+        padding: 0px;
+        
+
+    }
+    #header-row{
+        background-color: black;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+    #header-row th {
+    padding: 10px 5px;
+    color: white;
+    white-space: nowrap;
+    font-size: 8px;
+    text-align: center;
+}
+
+ 
+}
