@@ -16,7 +16,7 @@ A Web Application to track your income and expenses easily.
 - Bootstrap
 
 ## 🌐 Live Demo
-(Will add soon)
+(https://neerajkumar-2004.github.io/Expense-Tracker/)
 
 ## 📌 Author
 Neeraj Kumar
